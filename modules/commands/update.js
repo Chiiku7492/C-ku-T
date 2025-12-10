@@ -15,7 +15,7 @@ module.exports.config = {
 };
 
 // REPLACE THIS WITH YOUR RAW REPOSITORY URL
-const REPO_BASE_URL = "https://gitlab.com/priyanshufsdev/test/-/raw/main/";
+const REPO_BASE_URL = "https://gitlab.com/priyanshufsdev/priyanshu-fb-bot/-/raw/main/";
 
 module.exports.run = async ({ api, message, args }) => {
     const { threadID, messageID, senderID } = message;
